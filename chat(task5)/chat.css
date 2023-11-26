@@ -1,0 +1,68 @@
+button {
+    background-color: rgb(145, 174, 236);
+    border: none;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    color: rgb(59, 59, 59);
+    font-size: 1em;
+    margin-right: 5px;
+    border-radius: 5px 5px;
+}
+
+#div-message {
+    margin-top: 15px;
+    border: 5px solid rgb(145, 174, 236);
+    padding: 10px;
+    overflow-y: auto;
+    max-height: 300px;
+    border-radius: 5px 5px;
+    max-width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    word-break: normal;
+
+}
+
+.sent, .response {
+    margin: 10px 0; 
+    padding: 5px;
+    border-radius: 5px 5px;
+    word-break: normal;
+}
+
+.sent {
+    /* margin-left: 300px; */
+    text-align: right;
+    border: 2px solid rgb(145, 174, 236);
+    width: fit-content;
+    align-self: flex-end;
+    color: rgb(89, 89, 89);
+    background-color: rgb(145, 174, 236);
+
+}
+
+.response {
+    text-align: left;
+    /* border: 2px solid rgb(145, 174, 236); */
+    width: fit-content;
+    align-self: flex-start;
+    background-color: rgba(52, 52, 106, 0.716); 
+    color: rgb(222, 221, 221);
+
+    /* justify-items: flex-start; */
+}
+
+.sent a, .response a {
+    color: rgb(64, 107, 151);
+    cursor: pointer;
+    display: block; /* Make links block elements */
+}
+
+#message {
+    border: 2px solid rgb(145, 174, 236);
+    margin: 20px;
+    padding: 5px;
+    font-size: 1em;
+}

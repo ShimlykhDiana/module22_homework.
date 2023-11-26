@@ -1,0 +1,19 @@
+.flag-container {
+    display: none;
+}
+
+.flag-title{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+    color: white;
+    text-shadow: 2px 2px black;
+    border: 2px solid rgb(4, 24, 4);
+    padding: 30px;
+    margin-right: 1200px;
+}
+
+.active-title {
+    background: -webkit-linear-gradient(315deg, rgb(55, 66, 63), rgb(34, 91, 202));
+    background: -moz-linear-gradient(315deg, rgb(55, 66, 63), rgb(34, 91, 202));
+    background: linear-gradient(315deg, rgb(55, 66, 63), rgb(34, 91, 202));
+}

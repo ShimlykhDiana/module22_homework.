@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Задачи пользователя</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+
+<h1 class="flag-title" data-flag="russian"> Russian flag </h1>
+<div class="flag-container" id="russian-flag">
+    <svg height="120" width="180">
+        <!-- White stripe (top) -->
+        <rect x="0" y="0" width="180" height="40" style="fill: rgb(255, 255, 255); stroke: black; stroke-width: 1;"/>
+
+        <!-- Blue stripe (middle) -->
+        <rect x="0" y="40" width="180" height="40" style="fill: rgb(0, 0, 255);stroke: black; stroke-width: 1 "/>
+
+        <!-- Red stripe (bottom) -->
+        <rect x="0" y="80" width="180" height="40" style="fill: rgb(255, 0, 0); stroke: black; stroke-width: 1"/>
+    </svg>
+</div>
+
+<h1 class="flag-title" data-flag="french"> French flag </h1>
+<div class="flag-container" id="french-flag">
+    <svg height="120" width="180">
+        <!-- blue stripe (left) -->
+        <rect x="0" y="0" width="60" height="120"  style="fill: rgb(0, 0, 255); stroke: black; stroke-width: 2;"/>
+
+        <!-- white stripe (middle) -->
+        <rect x="60" y="0" width="60" height="120"  style="fill: rgb(255, 255, 255); stroke: black; stroke-width: 2;"/>
+
+        <!-- Red stripe (right) -->
+        <rect x="120" y="0" width="60" height="120"  style="fill: rgb(255, 0, 0); stroke: black; stroke-width: 2;"/>
+    </svg>
+</div>
+
+<h1 class="flag-title" data-flag="finnish"> Finnish flag </h1>
+<div class="flag-container" id="finnish-flag">
+    <svg height="120" width="180">
+        <!-- white background -->
+        <rect x="0" y="0" width="180" height="120"  style="fill: rgb(255, 255, 255); stroke: black; stroke-width: 2;"/>
+
+        <!-- navy stripe (horizontal) -->
+        <rect x="0" y="50" width="180" height="30"  style="fill: rgb(0,47,108); "/>
+
+        <!-- navy stripe (vertical) -->
+        <rect x="40" y="0" width="30" height="120"  style="fill: rgb(0,47,108); "/>
+    </svg>
+</div>
+
+<h1 class="flag-title" data-flag="swiss"> Swiss flag </h1>
+<div class="flag-container" id="swiss-flag">
+    <svg height="120" width="180">
+        <!-- red background -->
+        <rect x="0" y="0" width="180" height="120"  style="fill: rgb(255,0, 0); stroke: black; stroke-width: 2;"/>
+
+        <!-- navy stripe (horizontal) -->
+        <rect x="45" y="45" width="90" height="30"  style="fill: rgb(255, 255, 255); "/>
+
+        <!-- navy stripe (vertical) -->
+        <rect x="75" y="20" width="30" height="80"  style="fill: rgb(255, 255, 255); "/>
+    </svg>
+</div>
+
+<h1 class="flag-title" data-flag="japanese"> Japanese flag </h1>
+<div class="flag-container" id="japanese-flag">
+    <svg height="120" width="180">
+        <!-- white background -->
+        <rect x="0" y="0" width="180" height="120"  style="fill: rgb(255, 255, 255); stroke: black; stroke-width: 2;"/>
+        <circle cx="90" cy="60" r="30" style="fill: rgb( 188, 0, 45);"/>
+    </svg>
+</div>
+<script src="task1.js"> </script> 
+</body>
+
+</html>
